@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    width: auto;
+}
+
+:root {
+    --primary-color: #46b02F;
+    --white-color: #FFFFFF;
+    --brown-color: #251C13;
+    --black-color: #000000;
+    --gray-color: #CCCCCC;
+    --blue-color: #0000FF;
+    --navhover-color: #E6DFCF;
+    --number-color: #6B695D;
+    --search-color: #F2F3ED;
+    -search-form: #F5F4F2;
+    --footer-color: #F5F4F2;
+    --footertop-color: #71695E;
+    --footer-title: #706756;
+    --footer-text: #AEADA8;
+    --footerhover-color: #5A5955;
+}

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+body {
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: #8A2BE2;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+hr {
+    color: #0000FF;
+    border-style: solid;
+    border-color: #0000FF;
+    width: 100%;
+}
+
+form {
+    text-align: center;
+}
+
+.name {
+    margin-left: 100px;
+    height: 30px;
+    padding: 10px;
+}
+
+.password {
+    margin-left: 135px;
+    height: 30px;
+    padding: 10px;
+}
+
+
+.login {
+    height: 30px;
+    width: 90px;
+    border-radius: 50px;
+    margin-left: 120px;
+    text-align: center;
+}
+
+a {
+    margin-left: 50px;
+    font-style: italic;
+}

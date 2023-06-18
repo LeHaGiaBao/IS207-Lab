@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.log-in-form {
+    width: 40%;
+    background-color: #add8e6;
+    margin-top: 80px;
+}
+
+.form-title {
+    font-size: 32px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.number-info {
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number-title {
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.input-number {
+    height: 28px;
+    padding: 0 12px;
+}
+
+.button {
+    margin-left: 200px;
+    font-size: xx-large;
+}

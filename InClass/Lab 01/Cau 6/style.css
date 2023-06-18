@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.maindiv{
+    background-color: #ffedca;
+    border: 1px solid black;
+    position: relative;
+    width: 525px;
+    height: 325px;
+    
+}
+.tb-1 {
+    height: 53%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 93%;
+    color:blue;
+    text-align: left;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+
+th, td {
+    border: solid black 1px;
+    font-weight: 100;
+}
+th {
+    padding-left: 3px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+h1 {
+    position: absolute;
+    left: 40px;
+    font-size: 30px;
+    top: 20px;
+}
+.input-1{
+    width: 99%;
+}
+.th1{
+    border: none;
+    position: relative;
+    left: 150px;
+    text-align: center;
+}
+
+.sex{
+    color: black;
+}

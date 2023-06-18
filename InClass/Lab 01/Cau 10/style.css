@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 20%;
+    background-color: #ccc;
+    text-align: center;
+    border-style: solid;
+    border-color: aquamarine;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 35px;
+    width: 80%;
+    padding-left: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search {
+    float: right;
+    height: 35px;
+    width: 35px;
+    margin-top: 15px;
+    margin-left: -15px;
+    margin-right: 6px;
+    padding-top: 4px;
+    border-style: solid;
+    border-color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dashboard {
+    margin-top: 15px;
+    padding-left: 15px;
+    text-align: left;
+    color:cornflowerblue;
+    font-weight: lighter;
+}
+
+.sitemap {
+    margin-top: 15px;
+    padding-left: 15px;
+    text-align: left;
+    color: cornflowerblue;
+    font-weight: lighter;
+}
+
+.arrow-down {
+    margin-top: -25px;
+    padding-right: 15px;
+    text-align: right;
+    color: cornflowerblue;
+    font-weight: lighter;
+}
+
+.product-arrow-down {
+    margin-top: -30px;
+    padding-right: 15px;
+    text-align: right;
+    color: cornflowerblue;
+    font-weight: lighter;
+}
+
+.arrown-left {
+    margin-top: -30px;
+    padding-right: 15px;
+    text-align: right;
+    color: cornflowerblue;
+    font-weight: lighter;
+}
+
+.manage ul {
+    list-style: none;
+}
+
+
+.account,
+.product {
+    color: #6c8bc5;
+    text-align: left;
+    padding-left: 36px;
+    line-height: 35px;
+}
+
+.product ul li {
+    padding-left: 16px;
+}

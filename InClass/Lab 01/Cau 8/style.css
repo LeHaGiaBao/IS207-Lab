@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    width: 100%;
+}
+
+tr th {
+    border-style: solid;
+    border-color: black;
+    color: red;
+    padding: 30px;
+    text-align: center;
+}
+
+tr td {
+    border-style: solid;
+    border-color: black;
+    color: red;
+    padding: 30px;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    background-color: #FFEDCA;
+}
+
+.Web {
+    background-color: #C8F28C;
+    color: black; 
+}
+
+.Space {
+    background-color: #FFFFFf;
+    color: black; 
+}
+
+.LTDT {
+    background-color: #EAD7A7;
+    color: black; 
+}
+
+.TKCSDL {
+    background-color: #E3F7FC;
+    color: black; 
+}
+
+.CSDL {
+    background-color: #EFCBCB;
+    color: black; 
+}
+
+.HDH {
+    background-color: #AFCEEF;
+    color: black; 
+}

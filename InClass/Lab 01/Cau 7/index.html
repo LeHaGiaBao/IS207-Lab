@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 7</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="tour-form">
+        <h1 class="tour-title">
+            Phiếu đăng ký tour du lịch
+        </h1>
+
+        <table class="tour-table">
+            <tr>
+                <th>Họ và tên khách</th>
+                <th>
+                    <input type="text" placeholder="Nguyễn Văn A">
+                </th>
+            </tr>
+            <tr>
+                <th>Địa chỉ</th>
+                <th>
+                    <input type="text" placeholder="abc, xyz, jqk">
+                </th>
+            </tr>
+            <tr>
+                <th>Điện thoại</th>
+                <th>
+                    <input type="text" placeholder="09xxxxxxxx">
+                </th>
+            </tr>
+            <tr>
+                <th>Tour</th>
+                <th>
+                    <select name="tour" id="tours">
+                        <option value="">Chọn tour</option>
+                        <option value="HN-HL-TC">Hà Nội - Hạ Long - Tuần Châu giá 10.000.000đ/người</option>
+                        <option value="HN-SP">Hà Nội - Sa Pa giá 6.000.000đ/người</option>
+                        <option value="DN-HA">Đà Nẵng - Hội An giá 3.000.000đ/người</option>
+                        <option value="BMT-KT">Buôn Mê Thuộc - Kon Tum giá 2.000.000đ/người</option>
+                        <option value="HCM-NT">TP.HCM - Nha Trang giá 3.500.000đ/người</option>
+                        <option value="HCM-CT-CM">TP.HCM - Cần Thơ - Cà Mau giá 2.500.000đ/người</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+        <div class="pp-number">
+            <fieldset>
+                <legend>Số người tham gia</legend> <br/>
+                <div class="pp-number-info">
+                    Người lớn
+                    <input type="text" placeholder="" class="input-pp-number">
+                    Trẻ em 
+                    <input type="text" placeholder="" class="input-pp-number">
+                </div>
+            </fieldset>
+        </div>
+        <table class="tour-table">
+            <tr>
+                <th>Ghi chú</th>
+                <th>
+                    <input type="text" class="input-note">
+                </th>
+            </tr>
+        </table>
+        <div class="submit-btn">
+            <button>Đăng ký</button>
+        </div>
+    </div>
+</body>
+</html>
