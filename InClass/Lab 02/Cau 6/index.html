@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="./main.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Câu 6</title>
+</head>
+<body>
+    <div class="content">
+        <table class="content-table">
+            <th align="top" colspan="3">
+                <h1>Phiếu đăng ký Tour du lịch</h1>
+            </th>
+            <tr>
+                <td>Họ và tên Khách</td>
+                <td><input type="text" id="ClientName" placeholder="Nguyen Van A"/></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" id="address" placeholder="119 Nguyễn Du"/></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="text" id="PhoneNumber" placeholder="09xxxxxxxx"/></td>
+            </tr>
+            <tr>
+                <td>Tour</td>
+                <td>
+                    <select name="TourName" id="TourName">
+                        <option>Chọn tour</option>
+                        <option value="10000000">Hà Nội - Hạ Long - Tuần Châu</option>
+                        <option value="6000000">Hà Nội - Sapa</option>
+                        <option value="3000000">Đà Nẵng - Hội An</option>
+                        <option value="2000000">Buôn Mê Thuộc - Kon Tum</option>
+                        <option value="3500000">TP.HCM - Nha Trang</option>
+                        <option value="2500000">TP.HCM - Cần Thơ - Cà Mau</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="Customer">
+                    Người lớn
+                    <input type="number" id="Adult">
+                    Trẻ em
+                    <input type="number" id="Child">
+                </td>     
+            </tr>
+            <tr>
+                <td>Ghi chú</td>
+                <td><input type="text" id="Note" /></td>
+            </tr>
+            <tr>
+                <th colspan="3">
+                    <button class="Register">
+                        Đăng ký
+                    </button>
+                </hd>
+            </tr>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

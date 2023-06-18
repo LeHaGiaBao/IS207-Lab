@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Câu 4</title>
+</head>
+<body>
+    <div class="buy-tickets">
+        <table class="buy-tickets__table">
+            <tr>
+                <th colspan="2">Mua vé</th>
+            </tr>
+            <tr>
+                <td>Ngày chiếu</td>
+                <td>
+                    <input type="date" id="show-date" name="show-date" placeholder="dd-mm-yyyy" />
+                </td>
+            </tr>
+            <tr>
+                <td>Phim</td>
+                <td>
+                    <select name="" id="movie-name">
+                        <option value="">Phim</option>
+                        <option value="">Yêu em bất chấp</option>
+                        <option value="">Tháng năm rực rỡ</option>
+                        <option value="">Và em sẽ đến</option>
+                        <option value="">Chuyện ma lúc 3 giờ sáng</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Xuất chiếu</td>
+                <td>
+                    <select name="showtime" id="showtime">
+                        <option value="">Xuất chiếu</option>
+                        <option value="45000">9h – 12h</option>
+                        <option value="45000">13h – 16h</option>
+                        <option value="55000">17h – 20h</option>
+                        <option value="35000">22h – 2h</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phòng chiếu</td>
+                <td>
+                    <select name="room" id="room">
+                        <option value="">Phòng chiếu</option>
+                        <option value="1">Đồng</option>
+                        <option value="1.2">Bạc</option>
+                        <option value="1.5">Vàng</option>
+                        <option value="2.0">Kim cương</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn chỗ ngồi</td>
+                <td>
+                    <select name="seat-number" id="seat-number" multiple>
+                        <option value="">Ghế 01</option>
+                        <option value="">Ghế 02</option>
+                        <option value="">Ghế 03</option>
+                        <option value="">Ghế 04</option>
+                        <option value="">Ghế 05</option>
+                        <option value="">Ghế 07</option>
+                        <option value="">Ghế 08</option>
+                        <option value="">Ghế 09</option>
+                        <option value="">Ghế 10</option>
+                        <option value="">Ghế 11</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <button class="buy-tickets__table-btn">Mua vé</button>
+                </th>
+            </tr>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

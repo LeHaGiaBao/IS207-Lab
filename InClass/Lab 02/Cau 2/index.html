@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Câu 2</title>
+</head>
+<body>
+    <div class="table">
+        <table>
+            <tr>
+                <td colspan="3" align="center">
+                    <h1>Thực Đơn</h1>
+                </td>
+            </tr>
+            <tr class="heading-table" align="center">
+                <td>Thức ăn</td>
+                <td>Nước uống</td>
+                <td>Thời điểm</td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="food" id="food" multiple>
+                        <option value="20000">Bún bò</option>
+                        <option value="18000">Hủ tiếu</option>
+                        <option value="17000">Bánh canh</option>
+                        <option value="19000">Phở bò</option>
+                        <option value="15000">Nuôi</option>
+                        <option value="12000">Bánh mì thịt</option>
+                        <option value="15000">Bánh cuốn</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="drink" id="drink" multiple>
+                        <option value="12000">Cafe đá</option>
+                        <option value="15000">Cafe sữa</option>
+                        <option value="13000">Canh dây</option>
+                        <option value="12000">Canh muối</option>
+                        <option value="14000">Xí muội</option>
+                        <option value="13000">Sữa tươi</option>
+                        <option value="17000">Cam vắt</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="radio" name="day" id="morning" value="1" />
+                    <label for="morning">Ban ngày</label><br />
+                    <input type="radio" name="day" id="dinner" value="2" />
+                    <label for="dinner">Ban đêm</label><br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <button class="btn-calc">Tính tiền</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="table-hd">
+        <table id="table-hoahon">
+            <tr align="center" style="color: blue">
+                <th width="60%">Các món đã dùng</th>
+                <th width="40%">Tiền</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
